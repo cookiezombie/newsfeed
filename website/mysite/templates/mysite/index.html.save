@@ -1,5 +1,0 @@
-{% import feedparser %}
-{% a = feedparser.parse('https://feeds.npr.org/1001/rss.xml') %}
-{% d = [0,1,2,3,4,5,6,7,8,9,10,11,12,13,14 %}
-{% for c in d: %}
-	{% print(a.entries[c].title + a.entries[c] %}
