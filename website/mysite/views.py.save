@@ -1,8 +1,0 @@
-from django.shortcuts import render
-from django.http import HttpResponse
-import feedparser
-
-def index(request):
-	a = feedparser.parse('https://feeds.npr.org/1001/rss.xml')
-	y =    
-	return render(request, 'mysite/index.html', { 'y':y })
