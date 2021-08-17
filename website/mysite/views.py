@@ -8,7 +8,7 @@ def index(request):
 	c = f'{a.entries[1].title + a.entries[1].summary}'
 	d = f'{a.entries[2].title + a.entries[2].summary}'
 	e = f'{a.entries[3].title + a.entries[3].summary}'
-	e = f'{a.entries[4].title + a.entries[4].summary}'
+	ef = f'{a.entries[4].title + a.entries[4].summary}'
 	g = f'{a.entries[5].title + a.entries[5].summary}'
 	h = f'{a.entries[6].title + a.entries[6].summary}'
 	i = f'{a.entries[7].title + a.entries[7].summary}'
@@ -46,4 +46,4 @@ def index(request):
 	ap = f'{ah.entries[7].title + ah.entries[7].summary}'
 	aq = f'{ah.entries[8].title + ah.entries[8].summary}'
 	ar = f'{ah.entries[9].title + ah.entries[9].summary}'
-	return render(request, 'mysite/index.html', {'b':b,'c':c,'d':d,'e':e,'g':g,'h':h,'i':i,'j':j,'k':k,'l':l,'m':m,'n':n,'o':o,'p':p,'r':r,'s':s,'t':t,'u':u,'v':v,'w':w,'x':x,'y':y,'z':z,'ab':ab,'ac':ac,'ad':ad,'ae':ae,'af':af,'ag':ag,'ai':ai,'aj':aj,'ak':ak,'al':al,'am':am,'an':an,'ao':ao,'ap':ap,'aq':aq,'ar':ar})
+	return render(request, 'mysite/index.html', {'b':b,'c':c,'d':d,'e':e,'ef':ef,'g':g,'h':h,'i':i,'j':j,'k':k,'l':l,'m':m,'n':n,'o':o,'p':p,'r':r,'s':s,'t':t,'u':u,'v':v,'w':w,'x':x,'y':y,'z':z,'ab':ab,'ac':ac,'ad':ad,'ae':ae,'af':af,'ag':ag,'ai':ai,'aj':aj,'ak':ak,'al':al,'am':am,'an':an,'ao':ao,'ap':ap,'aq':aq,'ar':ar})
