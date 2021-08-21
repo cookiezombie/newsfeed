@@ -25,7 +25,7 @@ SECRET_KEY = ''
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['ec2-18-117-33-76.us-east-2.compute.amazonaws.com',18.117.33.76','172.31.16.21','127.0.0.1','localhost',]
 
 
 # Application definition
@@ -127,15 +127,47 @@ USE_TZ = True
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
+    '18.117.33.76'
+    '18.117.33.76:443'
+    '18.117.33.76:80'
+    '18.117.33.76:8080'
+    '18.117.33.76:8000'
+    '172.31.16.21'
+    '172.31.16.21:80'
+    '172.31.16.21:8080'
+    '172.31.16.21:8000'
+    '172.31.16.21:443'
+    'http://localhost'
     'http://localhost:8080',
+    'http://localhost:8000',
+    'http://localhost:80',
     'http://127.0.0.1:8000',
+    'http://127.0.0.1:8080',
+    'http://127.0.0.1:80',
+    'http://127.0.0.1'
     'https://feeds.npr.org',
     'https://feeds.arstechnica.com',
     'https://www.wgrz.com',
 ]
 CSRF_TRUSTED_ORIGINS = [
-    'http://localhost:8080',
+    '18.117.33.76'
+    '18.117.33.76:443'
+    '18.117.33.76:80'
+    '18.117.33.76:8080'
+    '18.117.33.76:8000'
+    '172.31.16.21'
+    '172.31.16.21:80'
+    '172.31.16.21:8080'
+    '172.31.16.21:8000'
+    '172.31.16.21:443'
+    'http://localhost'
+    'http://localhost:8080',                 
+    'http://localhost:8000',
+    'http://localhost:80',
     'http://127.0.0.1:8000',
+    'http://127.0.0.1:8080',
+    'http://127.0.0.1:80',
+    'http://127.0.0.1'
     'https://feeds.npr.org',
     'https://feeds.arstechnica.com',
     'https://www.wgrz.com',
