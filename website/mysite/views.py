@@ -4,21 +4,21 @@ import feedparser
 
 def index(request):
 	a = feedparser.parse('https://feeds.npr.org/1001/rss.xml')
-	b = f'{a.entries[0].title + a.entries[0].summary}'
-	c = f'{a.entries[1].title + a.entries[1].summary}'
-	d = f'{a.entries[2].title + a.entries[2].summary}'
-	e = f'{a.entries[3].title + a.entries[3].summary}'
-	ef = f'{a.entries[4].title + a.entries[4].summary}'
-	g = f'{a.entries[5].title + a.entries[5].summary}'
-	h = f'{a.entries[6].title + a.entries[6].summary}'
-	i = f'{a.entries[7].title + a.entries[7].summary}'
-	j = f'{a.entries[8].title + a.entries[8].summary}'
-	k = f'{a.entries[9].title + a.entries[9].summary}'
-	l = f'{a.entries[10].title + a.entries[10].summary}'
-	m = f'{a.entries[11].title + a.entries[11].summary}'
-	n = f'{a.entries[12].title + a.entries[12].summary}'
-	o = f'{a.entries[13].title + a.entries[13].summary}'
-	p = f'{a.entries[14].title + a.entries[14].summary}'
+	b = f"{a.entries[0].title + '. ' + a.entries[0].summary}"
+	c = f"{a.entries[1].title + '. ' + a.entries[1].summary}"
+	d = f"{a.entries[2].title + '. ' + a.entries[2].summary}"
+	e = f"{a.entries[3].title + '. ' + a.entries[3].summary}"
+	ef = f"{a.entries[4].title + '. ' + a.entries[4].summary}"
+	g = f"{a.entries[5].title + '. ' + a.entries[5].summary}"
+	h = f"{a.entries[6].title + '. ' + a.entries[6].summary}"
+	i = f"{a.entries[7].title + '. ' + a.entries[7].summary}"
+	j = f"{a.entries[8].title + '. ' + a.entries[8].summary}"
+	k = f"{a.entries[9].title + '. ' + a.entries[9].summary}"
+	l = f"{a.entries[10].title + '. ' + a.entries[10].summary}"
+	m = f"{a.entries[11].title + '. ' + a.entries[11].summary}"
+	n = f"{a.entries[12].title + '. ' + a.entries[12].summary}"
+	o = f"{a.entries[13].title + '. ' + a.entries[13].summary}"
+	p = f"{a.entries[14].title + '. ' + a.entries[14].summary}"
 	q = feedparser.parse('https://feeds.arstechnica.com/arstechnica/index')
 	r = f'{q.entries[0].title + q.entries[0].summary}'
 	s = f'{q.entries[1].title + q.entries[1].summary}'
